@@ -1,47 +1,68 @@
-<!--Question 7-->
 <!DOCTYPE html>
-
 <html>
-    <head>
-        
-        <title>
-            Semantic Elements
-        </title>
-        
-    </head>
-    <body>
-        <div id="header">
-        
-        
-                University Website
-        
-        </div>
-        <div id="content">
-            <div id="news">
-        
-                Latest News
-        
-        
-                <p>
-                    <b>Artificial Intelligence in Higher Learning</b>
-                </p>
-                <article2>
-                    <p>
-                        Artifical intelligence is a rapidly evolving technology that 
-                        stands to ramify all sectors in our modern world.
-                        <br>
-                        Education is no exception.It's ease of access makes it a key learning tool
-                        in any student's arsenal.On the other hand, it can be a dual edged sword.
-                        Cases of students offloading assignments, using Artificial intelligence to cheat in 
-                        their examinations are a major blow to the goals of education. 
-                    </p>
-                </article2>
-           
-        </div>
-        <div id="footer">
-            
-                Copyright 2026       
-            
-        </div>
-    </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>
+University WebPage
+</title>
+<body>
+<style>
+#header{
+background-color:#0c974d;
+font-family:Arial, TimesNewRoman;
+text-align:center;
+color:#E7EEFE;
+padding:25px 30px;
+border:
+}
+#content{
+display:flex;
+flex-direction:column;
+max-height:1200px;
+gap:15px;
+}
+#news{
+flex:4;
+background:#e5ebe7;
+padding:15px;
+border-radius:10px;
+}
+#sidebar{
+flex:1;
+background:#BBFCD9;
+padding:15px;
+border-radius:10px;
+}
+</style>
+<div id="header">
+<h1>University Website</h1>
+</div>
+<div id="content">
+<div id="news">
+<h2><b>University News Section</b></h2>
+<article>
+<p>
+Artificial intelligence is a rapidly evolving technology that stands to ramify all sectors in our modern world.<br>Education is no exception.It's ease of access makes it a key learning tool in any student's arsenal.On the other hand, it can be a dual edged sword.Cases of students offloading assignments, using Artificial intelligence to cheat in their examinations are a major blow to the fundamental goals of education. 
+</p>
+</div>
+<div id="sidebar">
+<h3>Important Links<h3>
+<ul>
+<li><a href="https://www.egerton.ac.ke/university-gallery/egerton-university">University Gallary<a></li>
+<li><a href="https://studentportal.egerton.ac.ke/">Student Portal<a></li>
+<li><a href="https://www.egerton.ac.ke/">Official University Page<a></li>
+</ul></div>
+</div>
+<details>
+<summary>Frequently asked questions in Computer Science</summary>
+<ol><li><p>What career options exist in Computer Science?</p></li>
+<li><p>What kind of algorithms are used for efficient system designs?</p></li>
+<li><p>What career prospects does AI introduce to the Field?</p></li>
+<li><p>Can Cybersecurity be integrated with AI?</p></li>
+<li><p>What's the essence of learning Mathematics for a computer science student?</p></li>
+</ol>
+</details>
+
+</body>
 </html>
