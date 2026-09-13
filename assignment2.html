@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Egerton University</title>
+    </head>
+    <!--Question 3!-->
+    <body>
+        <h1>
+            Computer Science Department
+        </h1>
+        <img src="Computerdept.jpg" width="300" height="300">
+        <video >
+            <source src=>
+        </video>
+        <audio>
+            <source src="compSci.mp3">
+        </audio>
+
+
+        <!--Question 4-->
+        
+       <div class="data-grid">
+        <style>
+        .data-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1px;
+    background-color: #ccc; /* Border color created by the gap */
+    border: 1px solid #ccc;
+    max-width: 600px;
+    }
+    .grid-cell {
+    background-color: #fff;
+    padding: 10px 15px;
+    }
+     </style>
+  
+    <div class="grid-cell header"><b>Name</b></div>
+    <div class="grid-cell header"><b>Department</b></div>
+    <div class="grid-cell header"><b>Score</b></div>
+
+    <div class="grid-cell">Joyce</div>
+    <div class="grid-cell">Nursing</div>
+    <div class="grid-cell">77</div>
+
+    <div class="grid-cell">Ray</div>
+    <div class="grid-cell">Engineering</div>
+    <div class="grid-cell">77</div>
+
+    <div class="grid-cell">Lucky</div>
+    <div class="grid-cell">Computer Science</div>
+    <div class="grid-cell">77</div>
+
+    <div class="grid-cell">Alex</div>
+    <div class="grid-cell">Pharmacy</div>
+    <div class="grid-cell">77</div>
+
+    <div class="grid-cell">Verolys</div>
+    <div class="grid-cell">Communications</div>
+    <div class="grid-cell">77</div>
+    </div>
+
+    <!--Question 5-->
+
+    <table>
+            <thead>
+                <th>
+                    Day
+                </th>
+                <th>
+                    
+                </th>
+
+            </thead>
+        </table>
+
+        <!--Question 5-->
+        <table class="grid-table">
+            <style>
+                .grid-table{
+                    width:100%;
+                    border-collapse:collapse;
+                }
+                .grid-table thead tbody{
+                    display:grid;
+                    grid-template-columns:1fr 2fr 1fr;
+                    row-gap: 8px;                
+                }
+                .grid-table tr{
+                    display:subgrid;
+                    grid-column:1/-1;
+                    background-color: #f9f9f9;
+                    border: 1px;
+                }
+                .grid-table td{
+                    padding:12px;
+                }
+            </style>
+            <thead>
+                <th>Day\Time</th>
+                <th>8 - 9 am</th>
+                <th>9 - 10 am</th>
+                <th>10 - 11 am</th>
+                <th>11 - 12 pm</th>
+                <th>12 - 1 pm</th>
+                <th>1 - 2 pm</th>
+                <hr>
+            </thead>
+            <tbody>
+                    <tr><td>Monday</td>
+                    <td>Math</td>
+                    <td>Acmp 224</td>
+                    <td>Comp 223</td>
+                    <td>Comp 241</td>
+                    <td>Stat 231</td>
+                    <td>Math 221</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>              
+                    <td>Math</td>
+                    <td>Acmp 224</td>
+                    <td>Comp 223</td>
+                    <td>Comp 241</td>                
+                    <td>Stat 231</td>
+                
+                    <td>
+                        Math 221
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Wednesday
+                    </td>
+                
+                
+                    <td>
+                        Math
+                    </td>
+                
+                
+                    <td>
+                        Acmp 224
+                    </td>
+                
+                
+                    <td>
+                        Comp 223
+                    </td>
+                
+                
+                    <td>
+                        Comp 241
+                    </td>
+                
+                
+                    <td>
+                        Stat 231
+                    </td>
+                
+                
+                    <td>
+                        Math 221
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Thursday
+                    </td>
+                
+                
+                    <td>
+                        Math
+                    </td>
+                
+                
+                    <td>
+                        Acmp 224
+                    </td>
+                
+                    <td>
+                        Comp 223
+                    </td>
+                
+                    <td>
+                        Comp 241
+                    </td>
+                
+                    <td>
+                        Stat 231
+                    </td>
+                
+                    <td>
+                        Math 221
+                    </td>
+                </tr>
+                
+                    <td>
+                        Friday
+                    </td>
+                
+                
+                    <td>
+                        Math
+                   </td>
+                
+                
+                    <td>
+                        Acmp 224
+                    </td>
+                
+                
+                    <td>
+                        Comp 223
+                    </td>
+                
+                
+                    <td>
+                        Comp 241
+                    </td>
+                
+                    <td>
+                        Stat 231
+                    </td>
+                
+                                    <td>
+                        Math 221
+                    </td>
+                </tr>
+                
+                </tbody>
+                <tfoot>
+    <tr>
+      <td colspan="2"></td>
+    </tr>
+    </tfoot>
+    <br>
+        </table>
+        <table class="grid-table">
+            <style>
+              .grid-table{
+                width:60%;
+                border-collapse:collapse;
+              }
+              .grid-table thead tbody{
+                display:grid;
+                grid-template-columns:1fr 1fr 1fr;
+                row-gap:4px;
+              }
+              .grid-table tr{
+                /*display:subgrid;*/
+                grid-column:1/-1;
+                background-color:#f9f9f9;
+                border:1px solid #ccc;
+              }
+              .grid-table td{
+                padding:8px;
+              }
+              </style>
+            <thead>
+                <tr>
+                    <th>
+                        Regestration Number
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Semester
+                    
+                    <th>
+                        Balance(Ksh)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>
+                    S17/06039/25
+                </td>
+                <td>
+                    Allan
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    15000
+                </td>
+                <tr>
+                <td>
+                    S17/06097/25
+                </td>
+                <td>
+                    Verolys
+                </td> 
+                <td>
+                    2
+                </td>
+                <td>
+                    12000
+                </td>
+                </tr>
+                <tfooter>
+                    <tr>
+                        <td>
+                            <b>Total Charges:</b>
+                        </td>
+                        <td>
+                            27000
+                        </td>
+                    </tr>
+                </tfooter>
+            </tbody>
+        </table>
+
+
+
+    </body>
+</html>
