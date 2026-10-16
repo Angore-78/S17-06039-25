@@ -1,0 +1,130 @@
+<!--question 6-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        span {
+            width: 100px;
+            height: 50px;
+            border: 1px solid black;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+
+    <p></p>
+    <!--question 7-->
+
+    <style>
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+            background-color: lightgray;
+            padding: 10px;
+
+        }
+    </style>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <p></p>
+
+    <!--question8-->
+
+    <style>
+        .cards {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+            flex: 1;
+            padding: 10px;
+            border: 1px solid blue;
+
+        }
+    </style>
+
+    <div class="cards">
+        <div class="card">
+            <h3>John</h3>
+            <p>Computer Science</p>
+        </div>
+        <div class="card">
+            <h3>Mary</h3>
+            <p>Information Technology</p>
+        </div>
+        <div class="card">
+            <h3>Peter</h3>
+            <p>Software Engineering</p>
+        </div>
+    </div>
+
+    <p></p>
+
+    <!--question 9-->
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        div {
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+    <div class="grid">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+    </div>
+    <hr>
+
+    <!--question 10-->
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .header {
+            grid-column: 1px / -1px;
+            padding: 15px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+    <div class="grid">
+        <div class="header">Header</div>
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+    </div>
+
+
+</body>
+
+</html>

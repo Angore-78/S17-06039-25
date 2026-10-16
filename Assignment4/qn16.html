@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  <style>
+    .container {
+      position: relative;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+    }
+    .box1 {
+      background-color: coral;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .box2 {
+      background-color: lightblue;
+      top: 50px;
+      left: 50px;
+      z-index: 2; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+  </div>
+</body>
+</html>

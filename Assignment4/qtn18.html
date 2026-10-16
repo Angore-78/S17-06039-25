@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 
+  <style>
+    .courses {
+      display: flex;
+      gap: 30px;
+      padding: 40px;
+    }
+    .card {
+      position: relative; 
+      width: 220px;
+      padding: 20px;
+      border: 1px solid lightgray;
+      background-color: #fff;
+    }
+   
+    .card-offset {
+      top: -15px; 
+    }
+
+   
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: crimson;
+      color: white;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    .card-btn {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .card-btn:hover {
+      background-color: #007bff;
+      transform: scale(1.05);
+    }
+
+
+    .overlap-box {
+      position: absolute;
+      bottom: -10px;
+      right: -10px;
+      background-color: gold;
+      padding: 5px 10px;
+      font-size: 12px;
+      border: 1px solid #000;
+      z-index: 10; 
+    }
+  </style>
+</head>
+<body>
+  <div class="courses">
+    <div class="card">
+      <span class="badge">NEW</span>
+      <h3>HTML Basics</h3>
+      <p>Start your web journey.</p>
+      <button class="card-btn">Enroll</button>
+      <div class="overlap-box">Popular</div>
+    </div>
+
+    <!-- Card positioned differently using position: relative -->
+    <div class="card card-offset">
+      <span class="badge">NEW</span>
+      <h3>CSS Styling</h3>
+      <p>Master layout styles.</p>
+      <button class="card-btn">Enroll</button>
+      <div class="overlap-box">Featured</div>
+    </div>
+
+    <div class="card">
+      <span class="badge">NEW</span>
+      <h3>JavaScript Core</h3>
+      <p>Build dynamic sites.</p>
+      <button class="card-btn">Enroll</button>
+      <div class="overlap-box">Trending</div>
+    </div>
+  </div>
+</body>
+</html>
